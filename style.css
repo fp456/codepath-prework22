@@ -1,0 +1,130 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 2rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: slategrey;
+  color: white; 
+  font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+}
+
+button {
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: black;
+  font-family: verdana, arial, sans-serif;
+  background-color: white;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:3px;
+  margin-top: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+#btn1 {
+    background: lightgreen;
+}
+
+#btn2 {
+    background: lightblue;
+}
+
+#btn3 {
+    background: pink;
+}
+
+#btn4 {
+    background: lightyellow ;
+}
+
+#btn5 {
+    background: peru ;
+}
+
+#btn6 {
+    background: plum ;
+}
+
+#btn1:active, #btn1.lit {
+background-image: url( 'https://cdn.glitch.global/d69d89ec-1f31-4a02-914e-8da9e5ac6f7d/dog1?v=1648151666260');
+    background-size: 200px 200px;}
+
+#btn2:active, #btn2.lit {
+background-image: url( 'https://cdn.glitch.global/d69d89ec-1f31-4a02-914e-8da9e5ac6f7d/cat2?v=1648151621125');
+    background-size: 200px 200px;}
+
+#btn3:active, #btn3.lit {
+background-image: url( 'https://cdn.glitch.global/d69d89ec-1f31-4a02-914e-8da9e5ac6f7d/cat3?v=1648151591896');
+    background-size: 200px 200px;}
+
+#btn4:active, #btn4.lit {
+background-image: url( 'https://cdn.glitch.global/d69d89ec-1f31-4a02-914e-8da9e5ac6f7d/dog4?v=1648151484959');
+    background-size: 200px 200px;}
+
+#btn5:active, #btn5.lit {
+    background-image: url( 'https://cdn.glitch.global/d69d89ec-1f31-4a02-914e-8da9e5ac6f7d/cat5.png?v=1648148266241');
+    background-size: 200px 200px;
+}
+
+#btn6:active, #btn6.lit {
+    background-image: url( 'https://cdn.glitch.global/d69d89ec-1f31-4a02-914e-8da9e5ac6f7d/cat6.png?v=1648147464804');
+    background-size: 200px 200px;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+#gameButtonArea img {
+    height: 130px;  
+    width: 100px;
+}
+
+
+#control{
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#child2{
+    font-family: verdana, arial, sans-serif; 
+    font-size: 12px;
+    color: black;
+    width:120px;
+    height:38px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0.8px 0.8px 0.8px 0.8px black;
+    
+}
